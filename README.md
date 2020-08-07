@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## The Service Mesh Manifesto
 
-You can use the [editor on GitHub](https://github.com/mhausenblas/service-mesh.xyz/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+If you're not familiar with what a "service mesh" is, read what [William Morgan](https://twitter.com/wm), one of the creators of Linkerd, the project that gave birth to the term service mesh, has to [say about it](https://servicemesh.io/):
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> For all the hype, the service mesh is architecturally pretty straightforward. It’s nothing more than a bunch of userspace proxies, stuck “next” to your services [...], plus a set of management processes. The proxies are referred to as the service mesh’s data plane, and the management processes as its control plane. The data plane intercepts calls between services and “does stuff” with these calls; the control plane coordinates the behavior of the proxies, and provides an API for you, the operator, to manipulate and measure the mesh as a whole.
 
-### Markdown
+No matter what [flavor of service mesh](https://servicemesh.es/) you prefer, be it CNCF Envoy ([Matt Klein](https://blog.envoyproxy.io/@mattklein123) of Lyft gave birth to that one), or CNCF Linkerd, or the new kid in town, Microsoft's [Open Service Mesh](https://openservicemesh.io/), you likely will benefit from a service mesh across a number of [use cases](https://lucperkins.dev/blog/service-mesh-use-cases/).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We believe:
 
-```markdown
-Syntax highlighted code block
+1. Service meshes are good and here to stay.
+2. Service meshes should work across compute.
+3. Using service meshes should be easy. Conversely, their overhead (cognitivelyt and technically) should be minimal.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mhausenblas/service-mesh.xyz/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
