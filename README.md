@@ -8,4 +8,5 @@ We believe:
 
 1. Service meshes are good and here to stay.
 2. Service meshes should work across compute.
-3. Using service meshes should be easy. Conversely, their overhead (cognitivelyt and technically) should be minimal.
+3. Using service meshes should be easy, and
+4. Conversely, their cognitive & technical overhead should be minimal.
